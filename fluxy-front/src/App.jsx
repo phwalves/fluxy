@@ -30,8 +30,8 @@ const NavBar = () => {
         </Link>
         <div className="flex items-center gap-6">
           <Link to="/dashboard" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">Painel</Link>
-          <Link to="/nova-receita" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">+ Receita</Link>
-          <Link to="/nova-despesa" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">+ Despesa</Link>
+          <Link to="/nova-receita" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">Receita</Link>
+          <Link to="/nova-despesa" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">Despesa</Link>
           <Link to="/metas" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">Metas</Link> 
           <Link to="/perfil" className="text-lg font-medium text-[#2c3e50] hover:text-white transition-colors">Minha Conta</Link>
         </div>
